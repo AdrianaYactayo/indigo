@@ -16,7 +16,7 @@
     font-family: 'Josefin Sans', sans-serif;
 
   }
-  .banner{
+  .banner img{
     width: 100%;
 }
 .description{
@@ -25,7 +25,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    padding:  20px 0px;
     font-weight: bold;
     width: 100%;
 }
@@ -39,7 +39,7 @@
     align-items: center;
     flex-wrap:wrap;
     width: 100%;
-    padding: 50px;
+    margin-bottom: 50px;
 }
 .main img{
     margin: 20px;
@@ -55,6 +55,7 @@
 }
 
 .artist{
+    width: 700px;
     border-radius: 20px;
     text-align: center;
 }
@@ -76,9 +77,10 @@ footer img{
 }
 
 @media (max-width: 641px) {
-    .banner{
-        width: 300px;
+    .banner img{
+        width: 100%;
     }
+
     .main img{
         width: 300px;
     }
@@ -94,5 +96,13 @@ footer img{
     iframe{
 
         width: 400px;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap:wrap;
+        width: 100%;
+       margin-bottom: 50px;
     }
 }
