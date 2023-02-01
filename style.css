@@ -1,0 +1,66 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-pink: #C7C7C7;
+    --gris-dark:#8c8c8c;
+    --gris: #adacac;
+    --shinee:#5dc1b9;
+    --shinee-ligth:#8ae0db;
+    --amarillo:#e6a74a;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+  }
+  body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+
+  }
+
+.description{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+.banner{
+    width: 100%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    width: 100%;
+}
+.main img{
+    margin: 20px;
+}
+.album{
+    width: 700px;
+    border-radius: 20px;
+}
+
+.video-main{
+
+    text-align: center;
+}
+
+.artist{
+    border-radius: 20px;
+    text-align: center;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: var(--black);
+    position: fixed;
+   bottom: 0;
+   width: 100%;
+}
+footer img{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+    border-radius: 20px;
+    background: var(--white);
+}
