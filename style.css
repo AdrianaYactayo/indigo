@@ -16,18 +16,27 @@
     font-family: 'Josefin Sans', sans-serif;
 
   }
-
+  .banner{
+    width: 100%;
+}
 .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 20px;
     font-weight: bold;
-}
-.banner{
     width: 100%;
 }
+.description p{
+    margin: 5px;
+}
+
 .main{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap:wrap;
     width: 100%;
     padding: 50px;
@@ -64,4 +73,26 @@ footer img{
     margin: 10px;
     border-radius: 20px;
     background: var(--white);
+}
+
+@media (max-width: 641px) {
+    .banner{
+        width: 300px;
+    }
+    .main img{
+        width: 300px;
+    }
+    .artist{
+        border-radius: 20px;
+        text-align: center;
+       width: 200px;
+    }
+    .album{
+        width: 200px;
+        border-radius: 20px;
+    }
+    iframe{
+
+        width: 400px;
+    }
 }
